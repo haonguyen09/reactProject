@@ -8,6 +8,12 @@ import React from "react";
 
 class App extends React.Component {
 
+  state = {
+    name: "NHao",
+    address: "Hoi dan IT",
+    age: 26
+  };
+
   render() {
     return (
       <div>

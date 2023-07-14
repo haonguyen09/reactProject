@@ -6,8 +6,7 @@ import MyComponent from './components/MyComponent';
 import React from "react";
 
 
-class App extends React.Component {
-
+class App extends React.App {
   render() {
     return (
       <div>
@@ -18,8 +17,15 @@ class App extends React.Component {
   }
 }
 
+const App = () => {
 
-
+  return (
+    <div>
+      Hello world 
+      <MyComponent></MyComponent>
+    </div>
+  );
+}
 
 // const App = () => {
 //   const count = useSelector(state => state.counter.count);

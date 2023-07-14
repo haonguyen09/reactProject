@@ -17,7 +17,7 @@ class MyComponent extends React.Component {
         return (
             <div>
                 My name is {this.state.name}
-                <button onClick={this.handleClick(this.state.name)}>CLick me</button>
+                <button onClick={this.handleClick(this.state.name)>CLick me</button>
             </div>
         );
     }
