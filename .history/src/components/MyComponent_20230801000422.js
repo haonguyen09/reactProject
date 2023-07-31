@@ -1,5 +1,4 @@
 import React from 'react';
-import Info from './Info';
 
 class MyComponent extends React.Component {
     // JSX
@@ -8,7 +7,9 @@ class MyComponent extends React.Component {
 
     render() {
         return (
-                <Info/>
+            <div>
+                <UserInfo></UserInfo>
+            </div>
             );
     };
 

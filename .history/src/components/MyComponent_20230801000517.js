@@ -1,5 +1,5 @@
 import React from 'react';
-import Info from './Info';
+import UserInfo from './UserInfo';
 
 class MyComponent extends React.Component {
     // JSX
@@ -8,7 +8,7 @@ class MyComponent extends React.Component {
 
     render() {
         return (
-                <Info/>
+                <UserInfo></UserInfo>
             );
     };
 
