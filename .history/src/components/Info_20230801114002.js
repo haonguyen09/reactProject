@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MyInfo from './MyInfo';
 
 class Info extends React.Component {
     state = {
@@ -43,6 +43,7 @@ class Info extends React.Component {
         
             </div>
 
+            <MyInfo/>
         )
     }
 }

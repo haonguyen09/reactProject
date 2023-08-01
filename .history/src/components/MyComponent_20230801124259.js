@@ -9,10 +9,8 @@ class MyComponent extends React.Component {
 
     render() {
         return (
-            <div>
-                <Info />
-                <MyInfo name=" Hoi dan IT" age="30"/>
-            </div>
+            <Info />
+            <MyInfo/>
             );
     };
 

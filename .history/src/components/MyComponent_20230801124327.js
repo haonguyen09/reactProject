@@ -11,7 +11,7 @@ class MyComponent extends React.Component {
         return (
             <div>
                 <Info />
-                <MyInfo name=" Hoi dan IT" age="30"/>
+                <MyInfo/>
             </div>
             );
     };
