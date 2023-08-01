@@ -17,10 +17,9 @@ class MyInfo extends React.Component {
                 {
                     listUsers.map((user) => {
                     return (
-                    <div key ={user.id}>
+                    <div>
                         <div>My name is {user.name}</div>
                         <div>My age is {user.age }</div>
-                        <hr/>
                     </div>
                     )
                 })}

@@ -1,5 +1,5 @@
 import React from 'react';
-// import Info from './Info';
+import Info from './Info';
 import MyInfo from './MyInfo';
 
 class MyComponent extends React.Component {
@@ -16,8 +16,8 @@ class MyComponent extends React.Component {
     render() {
         return (
             <div>
-                {/* <Info /> */}
-                <MyInfo listUsers={this.state.listUsers} />
+                <Info />
+                <MyInfo name=" Hoi dan IT" age="30"/>
             </div>
             );
     };

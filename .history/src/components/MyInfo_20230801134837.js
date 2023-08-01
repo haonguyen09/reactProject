@@ -17,11 +17,12 @@ class MyInfo extends React.Component {
                 {
                     listUsers.map((user) => {
                     return (
-                    <div key ={user.id}>
-                        <div>My name is {user.name}</div>
-                        <div>My age is {user.age }</div>
-                        <hr/>
-                    </div>
+                    <div>
+                        <div>My id is {id}</div>
+                        <div>My name is {name}</div>
+                        <div>My age is {age }</div>
+                            
+                            </div>
                     )
                 })}
                 
