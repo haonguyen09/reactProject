@@ -22,9 +22,7 @@ class MyInfo extends React.Component {
 
             <div>
                 <div>
-                    <span onClick={() => { this.handleShowHide() }}>
-                        {this.state.isShow === true ? "Hide list user" : "Show list user"}
-                    </span>
+                    <span onClick={()=> {this.handleShowHide()}}>Hide</span>
                 </div>
                 {this.state.isShow &&
                     <div>
