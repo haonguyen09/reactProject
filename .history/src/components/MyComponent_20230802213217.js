@@ -15,27 +15,22 @@ class MyComponent extends React.Component {
     handleAddNewUser = (userObj) => {
         console.log(">>> check data from parent: ", userObj);
         this.setState({
-            listUsers: [userObj, ...this.state.listUsers]
+            listUsers: [...this.state.listUsers]
         })
     }
 
 
     render() {
         return (
-            <>
-                <div className='a'>
-                    <AddUserInfo 
-                        handleAddNewUser={this.handleAddNewUser}
-                    />
-                    <DisplayInfo
-                        listUsers={this.state.listUsers} 
-                        
-                        />
-                </div>
-                <div className='b'>
+            <div>
+                <AddUserInfo 
+                    handleAddNewUser={this.handleAddNewUser}
+                />
+                <DisplayInfo
+                    listUsers={this.state.listUsers} 
                     
-                </div>
-            </>
+                    />
+            </div>
             );
     };
 
